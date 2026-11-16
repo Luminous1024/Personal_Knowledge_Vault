@@ -1,0 +1,12 @@
+{
+  "cssTheme": "AnuPpuccin",
+  "enabledCssSnippets": [
+    "extended-colorschemes",
+    "Tree_Structure",
+    "center-tables",
+    "mermaid-compact",
+    "mermaid-nord-dark"
+  ],
+  "theme": "obsidian",
+  "showRibbon": true
+}

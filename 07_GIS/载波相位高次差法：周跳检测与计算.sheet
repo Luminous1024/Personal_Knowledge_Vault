@@ -1,0 +1,9 @@
+[
+    {
+        "id": "e65c3872-c06f-4b3f-8934-1fc2690db91c",
+        "name": "Sheet1",
+        "plugin": "divams_spreadsheets_for_obsidian",
+        "celldata": [],
+        "calcChain": []
+    }
+]

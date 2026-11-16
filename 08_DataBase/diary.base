@@ -1,0 +1,14 @@
+views:
+  - type: table
+    name: diary
+    filters:
+      and:
+        - file.hasTag("diary")
+    order:
+      - file.name
+      - 创建时间
+    sort:
+      - property: file.ctime
+        direction: DESC
+    columnSize:
+      file.name: 197

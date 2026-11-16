@@ -1,0 +1,335 @@
+{
+  "main": {
+    "id": "5ec863a620100bb1",
+    "type": "split",
+    "children": [
+      {
+        "id": "2836f7c98e39299a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "606fe8c8a118180b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "11_日记/2026-11-16.md",
+                "mode": "preview",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "2026-11-16"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "0bb3e68a427fa4c9",
+    "type": "split",
+    "children": [
+      {
+        "id": "d412d00951c50289",
+        "type": "tabs",
+        "dimension": 60.02066115702479,
+        "children": [
+          {
+            "id": "e7ede2e47a09e765",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-folder-closed",
+              "title": "文件列表"
+            }
+          },
+          {
+            "id": "6b0afd700bbfbc85",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "tag:ArcGIS软件应用",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "搜索"
+            }
+          },
+          {
+            "id": "4a29969fa91cddf5",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "书签"
+            }
+          }
+        ]
+      },
+      {
+        "id": "a5c86e9544fcfec6",
+        "type": "tabs",
+        "dimension": 39.9793388429752,
+        "children": [
+          {
+            "id": "d1c103a5935f7545",
+            "type": "leaf",
+            "state": {
+              "type": "recent-files",
+              "state": {},
+              "icon": "clock",
+              "title": "Recent files"
+            }
+          },
+          {
+            "id": "9d659685e59a73b0",
+            "type": "leaf",
+            "state": {
+              "type": "bases",
+              "state": {
+                "file": "TaskNotes/Views/mini-calendar-default.base",
+                "viewName": "截止日期"
+              },
+              "icon": "tasknotes-simple",
+              "title": "mini-calendar-default"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 316
+  },
+  "right": {
+    "id": "e8a4dce43b6c1b90",
+    "type": "split",
+    "children": [
+      {
+        "id": "d190b4ff3ee1c800",
+        "type": "tabs",
+        "dimension": 31.697742885181547,
+        "children": [
+          {
+            "id": "115e438cd390bafb",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {},
+              "icon": "calendar-with-checkmark",
+              "title": "Calendar"
+            }
+          },
+          {
+            "id": "4a133c63b2c258dd",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "11_日记/2026-11-16.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "大纲"
+            }
+          },
+          {
+            "id": "10b6591c9b2d82c9",
+            "type": "leaf",
+            "state": {
+              "type": "file-properties",
+              "state": {
+                "file": "11_日记/2026-11-16.md"
+              },
+              "icon": "lucide-info",
+              "title": "笔记属性"
+            }
+          },
+          {
+            "id": "d8e337a517b8b19b",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "11_日记/2026-11-16.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "反向链接"
+            }
+          },
+          {
+            "id": "93a0f133e76736f2",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "11_日记/2026-11-16.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "出链"
+            }
+          },
+          {
+            "id": "f38aa8b248ed8206",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "标签"
+            }
+          },
+          {
+            "id": "c6b1d52ff091473d",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "添加笔记属性"
+            }
+          }
+        ]
+      },
+      {
+        "id": "f85acb8dcb37d6df",
+        "type": "tabs",
+        "dimension": 68.30225711481845,
+        "children": [
+          {
+            "id": "af77ee7c371120c5",
+            "type": "leaf",
+            "state": {
+              "type": "planner-timeline",
+              "state": {},
+              "icon": "calendar-with-checkmark",
+              "title": "Timeline"
+            }
+          },
+          {
+            "id": "457be1ae51f19bf5",
+            "type": "leaf",
+            "state": {
+              "type": "tasknotes-pomodoro-view",
+              "state": {},
+              "icon": "clock",
+              "title": "番茄钟"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 329.6666259765625
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false,
+      "bases:新建数据库": false,
+      "media-extended:打开媒体库": false,
+      "media-extended:打开媒体快速切换器": false,
+      "pdf-plus:PDF++: Toggle auto-copy": false,
+      "pdf-plus:PDF++: Toggle auto-focus": false,
+      "pdf-plus:PDF++: Toggle auto-paste": false,
+      "tags-overview:Tags overview": false,
+      "templater-obsidian:Templater": false,
+      "obsidian-day-planner:Open Timeline": false,
+      "obsidian-day-planner:Open Multi-Day View": false,
+      "spreadsheets:New Spreadsheet": false,
+      "tasknotes:打开迷你日历视图": false,
+      "tasknotes:打开日历视图": false,
+      "tasknotes:打开任务视图": false,
+      "tasknotes:打开议程视图": false,
+      "tasknotes:打开看板": false,
+      "tasknotes:打开番茄钟计时器": false,
+      "tasknotes:打开番茄钟统计": false,
+      "tasknotes:创建新任务": false,
+      "vault-full-statistics:Open vault statistics": false
+    }
+  },
+  "active": "115e438cd390bafb",
+  "lastOpenFiles": [
+    "11_日记/2026-11-16.md",
+    "TaskNotes/Views/mini-calendar-default.base",
+    "TaskNotes/Views/agenda-default.base",
+    "TaskNotes/Views/calendar-default.base",
+    "TaskNotes/Views/kanban-default.base",
+    "TaskNotes/Views/pomodoro-stats.base",
+    "TaskNotes/Views/relationships.base",
+    "TaskNotes/Views/tasks-default.base",
+    "TaskNotes/Views",
+    "TaskNotes",
+    "10_TaskNotes/Views/calendar-default.base",
+    "10_TaskNotes/现代测绘新技术及应用.md",
+    "10_TaskNotes/劳动教育实践.md",
+    "10_TaskNotes/劳动教育实习报告.md",
+    "10_TaskNotes/劳动教育结课论文.md",
+    "TaskNotes/Tasks/劳动教育实习报告.md",
+    "10_TaskNotes/Tasks/劳动教育结课论文.md",
+    "未命名.md",
+    "10_日记/劳动教育实习报告.md",
+    "10_日记/测绘新技术结课论文.md",
+    "10_日记/劳动教育实践.md",
+    "10_日记/劳动教育结课论文.md",
+    "07_GIS/三维GIS开发.md",
+    "00_SLAM/SLAM投稿会议期刊推荐.md",
+    "07_GIS/GNSS原理与应用.md",
+    "00_目录/diary.md",
+    "07_GIS/布尔运算代码对比分析（立方体与球体）.md",
+    "07_GIS/计算机地图制图原理与应用复习题纲.md",
+    "07_GIS/测绘法律法规与项目管理作业.md",
+    "07_GIS/VTK 网格数据读取与几何查询示例.md",
+    "07_GIS/ENVI实验.md",
+    "07_GIS/C_Sharp程序设计.md",
+    "07_GIS/自然地理学复习题纲.md",
+    "07_GIS/空间数据库原理与应用复习题纲.md",
+    "07_GIS/科技论文写作复习纲要.md",
+    "Snipaste_2025-07-14_12-42-40.jpg",
+    "Snipaste_2025-07-14_12-42-40 3.jpg",
+    "Snipaste_2025-07-14_12-42-40 2.jpg",
+    "Snipaste_2025-07-14_12-42-40 1.jpg",
+    "Pasted image 20251102152213.png",
+    "Pasted image 20251030193555.png",
+    "Pasted image 20251030193552.png",
+    "Pasted image 20251029225802.png",
+    "Pasted image 20251029225752.png",
+    "Pasted image 20251029225728.png"
+  ]
+}

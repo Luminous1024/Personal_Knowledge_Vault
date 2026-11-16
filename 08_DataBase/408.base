@@ -1,0 +1,32 @@
+filters:
+  and:
+    - file.hasTag("408_计算机学科专业基础")
+views:
+  - type: table
+    name: "408"
+    filters:
+      and:
+        - 考试科目 == "408"
+        - file.name != "408"
+    order:
+      - file.name
+      - 创建时间
+      - 考试科目
+      - 课程
+      - 阶段
+      - 老师
+      - 开始日期
+      - 结束日期
+    sort:
+      - property: file.ctime
+        direction: DESC
+    columnSize:
+      note.创建时间: 163
+  - type: table
+    name: C语言入门课程
+    filters:
+      and:
+        - file.name == "C语言入门课程"
+    sort:
+      - property: file.ctime
+        direction: ASC

@@ -1,0 +1,72 @@
+{
+  "collapse-filter": true,
+  "search": "",
+  "showTags": false,
+  "showAttachments": false,
+  "hideUnresolved": false,
+  "showOrphans": true,
+  "collapse-color-groups": true,
+  "colorGroups": [
+    {
+      "query": "tag:#考研数学  ",
+      "color": {
+        "a": 1,
+        "rgb": 1761500
+      }
+    },
+    {
+      "query": "tag:#408_计算机学科专业基础  ",
+      "color": {
+        "a": 1,
+        "rgb": 846309
+      }
+    },
+    {
+      "query": "tag:#考研英语  ",
+      "color": {
+        "a": 1,
+        "rgb": 3465757
+      }
+    },
+    {
+      "query": "tag:#diary  ",
+      "color": {
+        "a": 1,
+        "rgb": 14710098
+      }
+    },
+    {
+      "query": "tag:#随笔  ",
+      "color": {
+        "a": 1,
+        "rgb": 15974930
+      }
+    },
+    {
+      "query": "tag:#GIS  ",
+      "color": {
+        "a": 1,
+        "rgb": 5408992
+      }
+    },
+    {
+      "query": "tag:#目录  ",
+      "color": {
+        "a": 1,
+        "rgb": 14035241
+      }
+    }
+  ],
+  "collapse-display": true,
+  "showArrow": false,
+  "textFadeMultiplier": 0,
+  "nodeSizeMultiplier": 1,
+  "lineSizeMultiplier": 1,
+  "collapse-forces": false,
+  "centerStrength": 0.595650244118953,
+  "repelStrength": 10,
+  "linkStrength": 0.70612023474873,
+  "linkDistance": 260,
+  "scale": 0.5203360000999904,
+  "close": true
+}
