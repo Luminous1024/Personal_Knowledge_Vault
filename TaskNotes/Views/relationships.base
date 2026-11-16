@@ -1,3 +1,7 @@
+# Relationships
+# This view shows all relationships for the current file
+# Dynamically shows/hides tabs based on available data
+
 formulas:
   priorityWeight: if(priority=="none",0,if(priority=="low",1,if(priority=="normal",2,if(priority=="high",3,-1))))
   daysUntilDue: if((due.isEmpty() == false), ((number(date(due)) - number(today())) / 86400000).floor(), null)
@@ -39,16 +43,14 @@ formulas:
   urgencyScore: if(due.isEmpty() && scheduled.isEmpty(), formula.priorityWeight, formula.priorityWeight + max(0, 10 - if(formula.daysUntilNext, formula.daysUntilNext, 0)) + (1 - ((number(date(formula.nextDate)) - number(date(date(formula.nextDate).format("YYYY-MM-DD")))) / 86400000)))
   timeTrackedFormatted: if(timeEntries, if(list(timeEntries).filter(value.endTime).map((number(date(value.endTime)) - number(date(value.startTime))) / 60000).reduce(acc + value, 0) >= 60, (if(((list(timeEntries).filter(value.endTime).map((number(date(value.endTime)) - number(date(value.startTime))) / 60000).reduce(acc + value, 0) / 60).floor()) >= 1000 || ((list(timeEntries).filter(value.endTime).map((number(date(value.endTime)) - number(date(value.startTime))) / 60000).reduce(acc + value, 0) / 60).floor()) <= -1000, ("" + ((list(timeEntries).filter(value.endTime).map((number(date(value.endTime)) - number(date(value.startTime))) / 60000).reduce(acc + value, 0) / 60).floor())).replace(/\B(?=(\d{3})+(?!\d))/g, ","), ("" + ((list(timeEntries).filter(value.endTime).map((number(date(value.endTime)) - number(date(value.startTime))) / 60000).reduce(acc + value, 0) / 60).floor()))) + "小时 " + if(((list(timeEntries).filter(value.endTime).map((number(date(value.endTime)) - number(date(value.startTime))) / 60000).reduce(acc + value, 0) % 60).round()) >= 1000 || ((list(timeEntries).filter(value.endTime).map((number(date(value.endTime)) - number(date(value.startTime))) / 60000).reduce(acc + value, 0) % 60).round()) <= -1000, ("" + ((list(timeEntries).filter(value.endTime).map((number(date(value.endTime)) - number(date(value.startTime))) / 60000).reduce(acc + value, 0) % 60).round())).replace(/\B(?=(\d{3})+(?!\d))/g, ","), ("" + ((list(timeEntries).filter(value.endTime).map((number(date(value.endTime)) - number(date(value.startTime))) / 60000).reduce(acc + value, 0) % 60).round()))) + "分钟"), (if((list(timeEntries).filter(value.endTime).map((number(date(value.endTime)) - number(date(value.startTime))) / 60000).reduce(acc + value, 0).round()) >= 1000 || (list(timeEntries).filter(value.endTime).map((number(date(value.endTime)) - number(date(value.startTime))) / 60000).reduce(acc + value, 0).round()) <= -1000, ("" + (list(timeEntries).filter(value.endTime).map((number(date(value.endTime)) - number(date(value.startTime))) / 60000).reduce(acc + value, 0).round())).replace(/\B(?=(\d{3})+(?!\d))/g, ","), ("" + (list(timeEntries).filter(value.endTime).map((number(date(value.endTime)) - number(date(value.startTime))) / 60000).reduce(acc + value, 0).round()))) + "分钟")), (if((0) >= 1000 || (0) <= -1000, ("" + (0)).replace(/\B(?=(\d{3})+(?!\d))/g, ","), ("" + (0))) + "分钟"))
   dueDateDisplay: if(due.isEmpty(), "", if(date(due).format("YYYY-MM-DD") == today().format("YYYY-MM-DD"), "今天", if(date(due).format("YYYY-MM-DD") == (today() + "1 day").format("YYYY-MM-DD"), "明天", if(date(due).format("YYYY-MM-DD") == (today() - "1 day").format("YYYY-MM-DD"), "昨天", if(date(due) < today(), ((if((formula.daysUntilDue * -1) >= 1000 || (formula.daysUntilDue * -1) <= -1000, ("" + (formula.daysUntilDue * -1)).replace(/\B(?=(\d{3})+(?!\d))/g, ","), ("" + (formula.daysUntilDue * -1))) + " 天前")), if(date(due).format("YYYY-MM-DD") <= (today() + "7 days").format("YYYY-MM-DD"), date(due).format("ddd"), date(due).format("MMM D")))))))
+
 views:
   - type: tasknotesKanban
-    name: 子任务
+    name: "子任务"
     filters:
       and:
         - file.hasTag("task")
         - file.hasLink(this.file) && list(note.projects).map(file(value.replace(/^\[[^\]]+\]\((.*)\)$/, "$1").replace(/%20/g, " ")).asLink()).contains(this.file.asLink())
-    groupBy:
-      property: status
-      direction: ASC
     order:
       - status
       - priority
@@ -63,10 +65,13 @@ views:
       - complete_instances
       - file.tasks
     sort:
-      - property: tasknotes_manual_order
+      - column: tasknotes_manual_order
         direction: DESC
+    groupBy:
+      property: status
+      direction: ASC
   - type: tasknotesTaskList
-    name: 重复实例
+    name: "重复实例"
     filters:
       and:
         - file.hasTag("task")
@@ -86,10 +91,10 @@ views:
       - complete_instances
       - file.tasks
     sort:
-      - property: occurrence_date
+      - column: occurrence_date
         direction: ASC
   - type: tasknotesTaskList
-    name: 项目
+    name: "项目"
     filters:
       and:
         - list(this.projects).map(file(value.replace(/^\[[^\]]+\]\((.*)\)$/, "$1").replace(/%20/g, " ")).asLink()).contains(file.asLink())
@@ -107,7 +112,7 @@ views:
       - complete_instances
       - file.tasks
   - type: tasknotesTaskList
-    name: 受阻于
+    name: "受阻于"
     filters:
       and:
         - file.hasTag("task")
@@ -126,17 +131,14 @@ views:
       - complete_instances
       - file.tasks
     sort:
-      - property: tasknotes_manual_order
+      - column: tasknotes_manual_order
         direction: DESC
   - type: tasknotesKanban
-    name: 阻塞其他任务
+    name: "阻塞其他任务"
     filters:
       and:
         - file.hasTag("task")
         - list(note.blockedBy).map(file(if(value.isType("object"), value.uid, value)).asLink()).contains(this.file.asLink())
-    groupBy:
-      property: status
-      direction: ASC
     order:
       - status
       - priority
@@ -151,5 +153,8 @@ views:
       - complete_instances
       - file.tasks
     sort:
-      - property: tasknotes_manual_order
+      - column: tasknotes_manual_order
         direction: DESC
+    groupBy:
+      property: status
+      direction: ASC

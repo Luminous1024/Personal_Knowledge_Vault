@@ -7,5 +7,6 @@
     "margin": "0",
     "downscalePercent": 100
   },
-  "openBehavior": "daily"
+  "openBehavior": "daily",
+  "attachmentFolderPath": "16_Attachments"
 }

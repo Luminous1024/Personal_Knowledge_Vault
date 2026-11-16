@@ -7,10 +7,10 @@
     "iconColor": null,
     "recentlyUsedIcons": [
       "LiListTodo",
-      "RiTaskLine",
-      "FabPython",
-      "SiNvidia",
-      "SiArcgis"
+      "SiGooglegemini",
+      "SiOpenai",
+      "SiArxiv",
+      "SiIeee"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -41,9 +41,7 @@
   "03_政治": "LiScale",
   "02_择校": "LiUniversity",
   "01_专业": "LiGraduationCap",
-  "00_目录": "LiTableOfContents",
-  "00_DAR-Net": "FabPython",
-  "00_SLAM": "SiNvidia",
+  "00_SLAM": "SiOpenai",
   "08_DataBase": "LiDatabase",
   "09_Template": "TiTemplate",
   "11_日记": "LiNotebookPen",
@@ -56,5 +54,8 @@
   "15_运动/足球": "⚽",
   "15_运动/跑步": "🏃‍♂️",
   "15_运动/骑行": "🚲",
+  "16_Attachments": "RiAttachment2",
+  "00_目录": "LiTableOfContents",
+  "00_PathNet": "SiArxiv",
   "TaskNotes": "LiListTodo"
 }

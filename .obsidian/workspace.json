@@ -4,21 +4,20 @@
     "type": "split",
     "children": [
       {
-        "id": "2836f7c98e39299a",
+        "id": "77f9d03e1e6a5eca",
         "type": "tabs",
         "children": [
           {
-            "id": "606fe8c8a118180b",
+            "id": "27ac51a084462216",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "bases",
               "state": {
-                "file": "11_日记/2026-11-16.md",
-                "mode": "preview",
-                "source": false
+                "file": "TaskNotes/Views/calendar-default.base",
+                "viewName": "日历"
               },
-              "icon": "lucide-file",
-              "title": "2026-11-16"
+              "icon": "tasknotes-simple",
+              "title": "calendar-default"
             }
           }
         ]
@@ -33,7 +32,7 @@
       {
         "id": "d412d00951c50289",
         "type": "tabs",
-        "dimension": 60.02066115702479,
+        "dimension": 60.433884297520656,
         "children": [
           {
             "id": "e7ede2e47a09e765",
@@ -82,7 +81,7 @@
       {
         "id": "a5c86e9544fcfec6",
         "type": "tabs",
-        "dimension": 39.9793388429752,
+        "dimension": 39.56611570247934,
         "children": [
           {
             "id": "d1c103a5935f7545",
@@ -92,19 +91,6 @@
               "state": {},
               "icon": "clock",
               "title": "Recent files"
-            }
-          },
-          {
-            "id": "9d659685e59a73b0",
-            "type": "leaf",
-            "state": {
-              "type": "bases",
-              "state": {
-                "file": "TaskNotes/Views/mini-calendar-default.base",
-                "viewName": "截止日期"
-              },
-              "icon": "tasknotes-simple",
-              "title": "mini-calendar-default"
             }
           }
         ]
@@ -239,7 +225,20 @@
             }
           },
           {
-            "id": "457be1ae51f19bf5",
+            "id": "2fcf5cefe9e6e9da",
+            "type": "leaf",
+            "state": {
+              "type": "bases",
+              "state": {
+                "file": "TaskNotes/Views/agenda-default.base",
+                "viewName": "日程"
+              },
+              "icon": "tasknotes-simple",
+              "title": "agenda-default"
+            }
+          },
+          {
+            "id": "3835d63c93bb18ef",
             "type": "leaf",
             "state": {
               "type": "tasknotes-pomodoro-view",
@@ -284,24 +283,36 @@
       "vault-full-statistics:Open vault statistics": false
     }
   },
-  "active": "115e438cd390bafb",
+  "active": "e7ede2e47a09e765",
   "lastOpenFiles": [
-    "11_日记/2026-11-16.md",
-    "TaskNotes/Views/mini-calendar-default.base",
-    "TaskNotes/Views/agenda-default.base",
     "TaskNotes/Views/calendar-default.base",
+    "TaskNotes/Tasks/1.md",
+    "TaskNotes/Start Here.md",
+    "TaskNotes/Views/agenda-default.base",
     "TaskNotes/Views/kanban-default.base",
-    "TaskNotes/Views/pomodoro-stats.base",
-    "TaskNotes/Views/relationships.base",
     "TaskNotes/Views/tasks-default.base",
+    "TaskNotes/Tasks/现代测绘新技术及应用.md",
+    "TaskNotes/Tasks/劳动教育实践.md",
+    "TaskNotes/Tasks/劳动教育实习报告.md",
+    "TaskNotes/Tasks/劳动教育结课论文.md",
+    "TaskNotes/Tasks",
+    "TaskNotes/Views/relationships.base",
+    "TaskNotes/Views/pomodoro-stats.base",
+    "TaskNotes/Views/mini-calendar-default.base",
     "TaskNotes/Views",
     "TaskNotes",
-    "10_TaskNotes/Views/calendar-default.base",
+    "劳动教育实践.md",
+    "劳动教育实习报告.md",
+    "劳动教育结课论文.md",
+    "TaskNotes/劳动教育结课论文.md",
+    "11_日记/2026-11-16.md",
+    "07_GIS/布尔运算代码对比分析（立方体与球体）.md",
+    "16_Attachments/Snipaste_2026-03-18_21-11-32.jpg",
+    "16_Attachments/1b69328adcc54a85a31e7df4ebb24966.jpg",
     "10_TaskNotes/现代测绘新技术及应用.md",
     "10_TaskNotes/劳动教育实践.md",
     "10_TaskNotes/劳动教育实习报告.md",
     "10_TaskNotes/劳动教育结课论文.md",
-    "TaskNotes/Tasks/劳动教育实习报告.md",
     "10_TaskNotes/Tasks/劳动教育结课论文.md",
     "未命名.md",
     "10_日记/劳动教育实习报告.md",
@@ -311,25 +322,13 @@
     "07_GIS/三维GIS开发.md",
     "00_SLAM/SLAM投稿会议期刊推荐.md",
     "07_GIS/GNSS原理与应用.md",
-    "00_目录/diary.md",
-    "07_GIS/布尔运算代码对比分析（立方体与球体）.md",
-    "07_GIS/计算机地图制图原理与应用复习题纲.md",
-    "07_GIS/测绘法律法规与项目管理作业.md",
-    "07_GIS/VTK 网格数据读取与几何查询示例.md",
-    "07_GIS/ENVI实验.md",
-    "07_GIS/C_Sharp程序设计.md",
-    "07_GIS/自然地理学复习题纲.md",
-    "07_GIS/空间数据库原理与应用复习题纲.md",
-    "07_GIS/科技论文写作复习纲要.md",
-    "Snipaste_2025-07-14_12-42-40.jpg",
-    "Snipaste_2025-07-14_12-42-40 3.jpg",
-    "Snipaste_2025-07-14_12-42-40 2.jpg",
-    "Snipaste_2025-07-14_12-42-40 1.jpg",
-    "Pasted image 20251102152213.png",
-    "Pasted image 20251030193555.png",
-    "Pasted image 20251030193552.png",
-    "Pasted image 20251029225802.png",
-    "Pasted image 20251029225752.png",
-    "Pasted image 20251029225728.png"
+    "16_Attachments/Snipaste_2025-07-14_12-42-40.jpg",
+    "16_Attachments/Snipaste_2025-07-14_12-42-40 3.jpg",
+    "16_Attachments/Snipaste_2025-07-14_12-42-40 2.jpg",
+    "16_Attachments/Snipaste_2025-07-14_12-42-40 1.jpg",
+    "16_Attachments/Pasted image 20251102152213.png",
+    "16_Attachments/Pasted image 20251030193555.png",
+    "16_Attachments/Pasted image 20251030193552.png",
+    "16_Attachments/Pasted image 20251029225802.png"
   ]
 }
